@@ -11,10 +11,10 @@
                 <!--SUB MENU DE LA VISTA NOSOTROS-->
                 <nav class="contenedorNavmenu">
                     <ul class="styleUlsubMenu">
-                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerInicio.php">inicio</a></li>
-                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerFactorial.php">Factorial</a></li>
-                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerNumprimos.php">Numeros primos</a></li>
-                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerFibonaccio.php">Serie Fibonacci</a></li>
+                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerRutas.php?opc=1&subOpc=0">inicio</a></li>
+                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerRutas.php?opc=1&subOpc=1">Factorial</a></li>
+                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerRutas.php?opc=1&subOpc=2">Numeros primos</a></li>
+                        <li class="styleLisubMenu"><a class="styleLinksubMenu" href="../controller/controllerRutas.php?opc=1&subOpc=3">Serie Fibonacci</a></li>
                     </ul>  
                 </nav>
             </div>

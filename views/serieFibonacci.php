@@ -1,5 +1,5 @@
-<!--VISTA FACTORIAL-->
-<p class="styleTitulosubMenu">Estoy en factorial</p>
+<!--VISTA SERIE FIBONACII-->
+<p class="styleTitulosubMenu">Serie fibonacci</p>
 <!--TITULO -->
 
 <div>

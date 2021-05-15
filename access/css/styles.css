@@ -230,21 +230,22 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
- border-radius: 5px;
- border: 1px solid goldenrod;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
 }
 
 .imgPrincipalsubMenu {
-  width: 25%;
+width: 100%;  
 }
 
-.contenedorTxtvisionMision {
+
+/*.contenedorImgPrincipal {
   background-color: white;
-
-
-  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10px;
+  padding: 5px;
   border-radius: 5px;
- 
-}
-
-
+  border: 1px solid goldenrod;*/

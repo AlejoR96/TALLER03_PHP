@@ -1,5 +1,5 @@
-<!--VISTA FACTORIAL-->
-<p class="styleTitulosubMenu">Estoy en factorial</p>
+<!--VISTA NUMPRIMOS-->
+<p class="styleTitulosubMenu">Numeros primos</p>
 <!--TITULO -->
 
 <div>

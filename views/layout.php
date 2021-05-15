@@ -1,4 +1,4 @@
-<!--VISTA lAYOUT-->
+<!--VISTA lAYOUT - GENERAL -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +15,8 @@
     <header class="styleHeader"> <!--INICIO ENCABEZADO-->
                 <nav class="contenedorNavmenu">
                     <ul class="styleUl">
-                        <li class="styleLi"><a class="styleLink" href="../controller/controllerHome.php">Home</a></li>
-                        <li class="styleLi"><a class="styleLink" href="../controller/controllerAlgoritmos.php">Algoritmos</a></li>
+                        <li class="styleLi"><a class="styleLink" href="../controller/controllerRutas.php?opc=0">Home</a></li>
+                        <li class="styleLi"><a class="styleLink" href="../controller/controllerRutas.php?opc=1">Algoritmos</a></li>
                     </ul>  
                 </nav>
 
