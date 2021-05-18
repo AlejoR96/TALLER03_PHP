@@ -1,6 +1,5 @@
 <?php
 
-
 class RutasViews
 {
 
@@ -27,22 +26,27 @@ class RutasViews
 
         switch ($r) {
             case 0:
-                $vista = "algoritmoinicio.php";
+                $subVista = "algoritmoinicio.php";
+
                 break;
             case 1:
-                $vista = "formfactorial.php";
+                $subVista = "formfactorial.php";
                 break;
             case 2:
-                $vista = "numprimos.php";
+                $subVista = "numprimos.php";
                 break;
             case 3:
-                $vista = "serieFibonacci.php";
+                $subVista = "serieFibonacci.php";
                 break;
             default:
-                $vista = "algoritmoinicio.php";
+                $subVista = "algoritmoinicio.php";
                 break;
         }
 
-        return $vista;
+        return $subVista;
     }
 }
+
+/*
+$vista = "algoritmo.php";
+$subVista="formfactorial.php"; */

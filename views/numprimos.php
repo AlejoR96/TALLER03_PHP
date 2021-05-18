@@ -4,7 +4,7 @@
 
 <div>
 
-    <form action="../controller/controllerCalculofact.php" method="post">
+    <form action="../controller/controllerCalculoNumPrimos.php" method="post">
 
         <div>
             <div>
@@ -29,7 +29,7 @@
     <?php
 
        if(isset($respuesta)){
-           echo $respuesta;
+           echo $respuesta; 
        }
        
 

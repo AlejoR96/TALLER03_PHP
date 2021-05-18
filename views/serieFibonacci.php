@@ -4,7 +4,7 @@
 
 <div>
 
-    <form action="../controller/controllerCalculofact.php" method="post">
+    <form action="../controller/controllerCalculoFibonacii.php" method="post">
 
         <div>
             <div>
