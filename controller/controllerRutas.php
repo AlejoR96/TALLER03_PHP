@@ -9,7 +9,7 @@ if(isset($_GET["opc"])){
 }
 
 if(isset($_GET["subOpc"])){
-    $vista = $ruta -> subMenuM($_GET["subOpc"]);
+    $subVista = $ruta -> subMenuM($_GET["subOpc"]);
 }
 
 require ("../views/layout.php");

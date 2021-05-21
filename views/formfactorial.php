@@ -12,7 +12,7 @@
             </div>
 
             <div>
-                <input type="number" name "varInt" placeholder="Digite un numero">
+                <input type="number" name = "varInt" placeholder="Digite un numero">
             </div>
         </div>
 
@@ -28,11 +28,10 @@
 
     <?php
 
-       if(isset($respuesta)){
-           echo $respuesta;
-       }
-       
-
+        if(isset($respuesta)){
+            echo $respuesta;
+        }
+        
     ?>
 
 

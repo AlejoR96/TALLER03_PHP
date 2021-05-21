@@ -27,14 +27,21 @@ class servicioCalculos{
 
     public function Calculofibonacii($n)
     {
-        $fibo = [0,1];
+        $valorUno=0;
+        $valorDos=1;
+        $suma = 1;
+        $sucesion = "0 1 ";
 
-        for($i=2; $i <$n; $i++){
-            $fibo[] = $fibo[$i-1] + $fibo[$i-2];
-        }
-        echo $fibo[$n];
-        
-        return $fibo(10);
+           
+            for ($i =3 ; $i <= $n ; $i++) {
+                $valorUno = $valorDos ;
+                $valorDos = $suma;
+                $suma = $valorUno + $valorDos;
+                $sucesion = $sucesion . "  ". $suma;    
+            }
+
+            return $sucesion;
+
     }
     
 

@@ -10,10 +10,10 @@ if( (isset($_POST['varInt'])) && (!empty($_POST['varInt'])) )
     $primo = $calcular -> Calculoprimos($numero); 
 
     if ($primo) {
-        $respuesta = "El numero ".$numero." es primo";
+        $respuesta = "El numero ". $numero ." es primo";
 
     }else {
-        $respuesta = "El numero ".$numero." no es primo";
+        $respuesta = "El numero ". $numero ." no es primo";
     }
 }
 

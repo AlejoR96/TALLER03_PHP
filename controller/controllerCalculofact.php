@@ -9,7 +9,7 @@ if( (isset($_POST['varInt'])) && (!empty($_POST['varInt'])) )
     $numero = intval($_POST['varInt']);
     $fact = $calcular -> Calculofactorial($numero); 
 
-    $respuesta = "El factorial de ".$numero." es".$fac;
+    $respuesta = "El factorial de ".$numero." es".$fact;
 
 }
 

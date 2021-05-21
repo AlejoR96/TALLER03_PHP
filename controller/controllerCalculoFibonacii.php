@@ -9,7 +9,7 @@ if( (isset($_POST['varInt'])) && (!empty($_POST['varInt'])) )
     $numero = intval($_POST['varInt']);
     $fibo = $calcular -> Calculofibonacii($numero); 
 
-    $respuesta = "La sucesion es: ". $fibo;
+    $respuesta = "La sucesion de ".$numero. "es ".$fibo;
 
 }
 
